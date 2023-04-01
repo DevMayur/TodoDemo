@@ -36,7 +36,3 @@ To use the app, follow these steps:
 2. Click the "Add Todo" button to add the todo to the list.
 3. Click the "Delete" button to remove a todo from the list.
 4. Click on the page number to navigate to the corresponding page.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
