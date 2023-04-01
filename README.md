@@ -22,7 +22,7 @@ The technologies used in this project are:
 To install and run the app, follow these steps:
 
 ```bash
-git clone https://github.com/<username>/todo-list-app.git
+git clone https://github.com/DevMayur/todo-list-app.git
 cd todo-list-app
 npm install
 npm start
