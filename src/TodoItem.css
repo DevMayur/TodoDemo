@@ -1,0 +1,98 @@
+.todoItem {
+    border: 0px solid;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 8px;
+    background-color: cornflowerblue;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+}
+
+.todoItem:hover {
+    border: 1px solid;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 8px;
+    background-color: rgb(113, 158, 241);
+    color: white;
+}
+
+.title {
+    width: 75%;
+    display: inline-block;
+}
+
+.icons {
+    margin: auto;
+}
+
+.icon {
+    size: 24px;
+    font-size: x-large;
+    margin-left: 48px;
+    margin-right: 24px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.titleInput {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    outline: none;
+    display: block;
+    margin: 4px;
+}
+
+.buttonInput {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    margin: 4px;
+    background-color: #0792c5;
+}
+
+.buttonInput:hover {
+    cursor: pointer;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 70%;
+    box-sizing: border-box;
+    border: 0px solid;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 12px;
+    background-color: rgb(5, 177, 160);
+    color: white;
+    justify-content: space-between;
+    display: inline-block;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+button {
+    width: 20%;
+    background-color: #0792c5;
+}
+
+button:hover {
+    cursor: pointer;
+}
